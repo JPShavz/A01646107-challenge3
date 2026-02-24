@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------ */
+/* WRITE YOUR CSS HERE :) */
+/* ------------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', system-ui, sans-serif;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    border-bottom: 3px solid #2b6cb0;
+    padding-bottom: 0.5rem;  
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    color: rgb(3, 128, 3);
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+body {
+    font-family: 'Roboto', system-ui, sans-serif; 
+    background-color: rgb(246, 246, 246);
+}
+
+.nav-list {
+    display: inline-block;
+    margin-right: 1.5rem; 
+}
+
+.nav-list a:hover {
+    color: #ffd166;  
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list a.active {
+    background-color: lightslategray;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#main-header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #324A5F;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header {
+    background-color: #00072D;
+    color: aliceblue;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.heading-subtitle {
+    color: #A6E1FA;
+}
+
+.highlight {
+    background-color: #e6f0f5;   
+    border-left: 6px solid #2b6cb0;  
+    padding: 1rem;
+    margin: 1rem 0;
+    font-style: italic; 
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.tool-card {
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #0075A2;
+    color: white;
+}
+
+th {
+    padding: 1rem;
+    text-align: left;
+}
+
+td {
+    padding: 1rem;
+    text-align: left; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr {
+    border: 1px solid #ddd;
+    transition: background-color 0.2s ease;
+}
+ 
+tbody tr:hover {
+    background-color: #A6E1FA;
+}
+
